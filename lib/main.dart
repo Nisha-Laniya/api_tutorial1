@@ -1,3 +1,4 @@
+import 'package:api_tutorial1/user_screen.dart';
 import 'package:flutter/material.dart';
 import 'home_page.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: UserScreen(),
     );
   }
 }
